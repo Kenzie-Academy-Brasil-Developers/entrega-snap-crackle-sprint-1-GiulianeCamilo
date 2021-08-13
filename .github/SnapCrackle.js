@@ -1,11 +1,11 @@
-let maxValue = 9000;
+// let maxValue = 9000;
 let novoArray = [];
 let s = "Snap";
 let c = "Crackle";
 let sc ="SnapCrackle";
 
-function snapCrackle (){
-        for (let i = 1; <= maxValue; i++){
+function snapCrackle (maxValue){
+        for (let i = 1; i <= maxValue; i++){
     if (i % 2 !=0 && i % 5 ===0){
         novoArray.push(sc);
     } else if (i % 2 !== 0) {
@@ -19,6 +19,6 @@ function snapCrackle (){
     } 
     return novoArray;
     }
-    console.log(snapCrackle ());
+    console.log(snapCrackle (15));
 
   
